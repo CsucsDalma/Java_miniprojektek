@@ -12,9 +12,9 @@ public class Fel4 {
             } else {
                 tomorit.append(szo.charAt(i));
                 tomorit.append(szamol);
-                szamol=1;
+                szamol = 1;
             }
         }
-        System.out.println("Tmoritett valtozat: "+tomorit);
+        System.out.println("Tmoritett valtozat: " + tomorit);
     }
 }
