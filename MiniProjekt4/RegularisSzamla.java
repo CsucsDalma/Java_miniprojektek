@@ -27,13 +27,12 @@ public class RegularisSzamla implements BankSzamla {
     public RegularisSzamla(String tulNev) {
         this.egyenleg = egyenleg;
         this.tulNev = tulNev;
-        this.szamlaSzam = szamlaSzam;
+        this.szamlaSzam = ujSzamlaSzam();
         this.tranzakciok = new ArrayList<>();
-        ujSzamlaSzam();
     }
 
-    private void ujSzamlaSzam() {
-        szamlaSzam++;
+    private int ujSzamlaSzam() {
+        return kovSzamlaSzam++;
     }
 
     @Override

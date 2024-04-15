@@ -48,6 +48,7 @@ public class TestSzamla {
         takarekSzamla1.hozzaadKamat();
         System.out.println(takarekSzamla1);
         System.out.println();
+        System.out.println(takarekSzamla2.getKamatRata());
         takarekSzamla2.Betesz(15000);
         takarekSzamla2.setKamatRata(9);
         takarekSzamla2.hozzaadKamat();

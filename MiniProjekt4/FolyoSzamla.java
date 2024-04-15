@@ -4,8 +4,8 @@ import java.util.Objects;
 
 public class FolyoSzamla extends RegularisSzamla {
     private int tranzakciokSzama;
-    private static int ingyenesTranzSzama = 3;
-    private static double tranzakcioAra = 2.0;
+    private static final int ingyenesTranzSzama = 3;
+    private static final double tranzakcioAra = 2.0;
 
     public FolyoSzamla(String tulNev) {
         super(tulNev);
